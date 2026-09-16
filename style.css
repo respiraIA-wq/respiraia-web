@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  margin: 0;
+
+  min-height: 100vh;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background:
+    linear-gradient(
+      135deg,
+      #e8f5f2,
+      #f5fbfa
+    );
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: #20302d;
+}
+
+
+.container {
+
+  width: 100%;
+
+  max-width: 650px;
+
+  padding: 20px;
+
+}
+
+
+.card {
+
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 35px;
+
+  box-shadow:
+    0 10px 30px
+    rgba(0, 0, 0, 0.10);
+
+  text-align: center;
+
+}
+
+
+h1 {
+
+  margin-top: 0;
+
+  font-size: 38px;
+
+  letter-spacing: 2px;
+
+}
+
+
+.subtitle {
+
+  color: #65736f;
+
+  margin-bottom: 30px;
+
+}
+
+
+.controls {
+
+  display: flex;
+
+  gap: 15px;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+}
+
+
+button {
+
+  border: none;
+
+  border-radius: 12px;
+
+  padding:
+    14px 24px;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s,
+    opacity 0.2s;
+
+}
+
+
+button:hover {
+
+  transform:
+    translateY(-2px);
+
+}
+
+
+button:disabled {
+
+  opacity: 0.45;
+
+  cursor: not-allowed;
+
+  transform: none;
+
+}
+
+
+.primary {
+
+  background: #287d68;
+
+  color: white;
+
+}
+
+
+.secondary {
+
+  background: #375b9e;
+
+  color: white;
+
+}
+
+
+.timer {
+
+  font-size: 30px;
+
+  font-weight: bold;
+
+  margin: 25px 0;
+
+}
+
+
+.status {
+
+  min-height: 25px;
+
+  margin-bottom: 25px;
+
+  color: #52615d;
+
+}
+
+
+.result {
+
+  text-align: left;
+
+}
+
+
+.result h2 {
+
+  margin-bottom: 10px;
+
+}
+
+
+.result-box {
+
+  min-height: 150px;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  background: #f2f7f5;
+
+  border: 1px solid #d9e7e2;
+
+  white-space: pre-wrap;
+
+  line-height: 1.6;
+
+}
+
+
+.warning {
+
+  margin-top: 25px;
+
+  font-size: 13px;
+
+  color: #6b6250;
+
+  line-height: 1.5;
+
+}
+
+
+@media (max-width: 600px) {
+
+  .card {
+
+    padding: 25px 18px;
+
+  }
+
+
+  h1 {
+
+    font-size: 30px;
+
+  }
+
+
+  button {
+
+    width: 100%;
+
+  }
+
+}
