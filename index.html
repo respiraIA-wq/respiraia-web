@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>RespiraIA</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+  <main class="container">
+
+    <div class="card">
+
+      <h1>RESPIRA IA</h1>
+
+      <p class="subtitle">
+        Análisis orientativo de sonidos respiratorios
+      </p>
+
+
+      <div class="controls">
+
+        <button
+          id="recordButton"
+          class="primary"
+        >
+          🎙️ GRABAR
+        </button>
+
+
+        <button
+          id="analyzeButton"
+          class="secondary"
+          disabled
+        >
+          ANALIZAR
+        </button>
+
+      </div>
+
+
+      <div
+        id="timer"
+        class="timer"
+      >
+        0 s
+      </div>
+
+
+      <div
+        id="status"
+        class="status"
+      >
+        Pulsa "Grabar" para comenzar.
+      </div>
+
+
+      <section class="result">
+
+        <h2>Resultado</h2>
+
+        <div
+          id="resultBox"
+          class="result-box"
+        >
+          Esperando análisis...
+        </div>
+
+      </section>
+
+
+      <p class="warning">
+
+        ⚠️ Este resultado es únicamente orientativo
+        y educativo. No constituye un diagnóstico médico
+        y no sustituye la valoración de un profesional
+        sanitario.
+
+      </p>
+
+    </div>
+
+  </main>
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
