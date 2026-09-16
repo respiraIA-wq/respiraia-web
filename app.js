@@ -5,7 +5,7 @@
 // PEGA AQUÍ LA URL REAL DE TU GOOGLE APPS SCRIPT
 
 const APPS_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbyQrdWmUwxnO9QyTqEFwu-9-qOFVbR0Ia_aVFTK4ayz_V275CelPAPP1ZYcWfnC0K8f/exec";
+  "https://script.google.com/macros/s/AKfycbyL7ZyCeBqzFXGNdRfqGuIJkqBm7Xylp-LShJuX6o9-ZEeyBEkqxiOWpiUAdZMbgNwK/exec";
 
 
 // ============================================================
